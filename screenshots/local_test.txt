@@ -1,0 +1,10 @@
+Подключаемся к серверу: localhost:50051
+
+1. Тестируем /health эндпоинт:
+   Ответ Health: status=ok, version=v1.0.0
+
+2. Тестируем /predict эндпоинт:
+   Ответ Predict:
+     Prediction: 0
+     Confidence: 1.000
+     Model Version: v1.0.0
