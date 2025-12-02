@@ -73,7 +73,7 @@ class PredictionServicer(model_pb2_grpc.PredictionServiceServicer):
     
     def __init__(self):
         # Получаем переменные окружения
-        model_path = os.getenv('MODEL_PATH', 'models/model.pkl')  # Изменено на локальный путь
+        model_path = os.getenv('MODEL_PATH', 'models/model.pkl')  
         model_version = os.getenv('MODEL_VERSION', 'v1.0.0')
         
         # Инициализируем модель
