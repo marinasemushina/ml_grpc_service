@@ -3,6 +3,7 @@
 Минимальный ML-сервис с gRPC API для предсказаний.
 
 ## Структура проекта
+'''
 ml_grpc_service/
 ├── protos/ # Protobuf файлы
 ├── server/ # gRPC сервер
@@ -11,6 +12,7 @@ ml_grpc_service/
 ├── Dockerfile # Конфигурация Docker
 ├── requirements.txt # Зависимости Python
 └── README.md # Документация
+'''
 
 ## API Endpoints
 
