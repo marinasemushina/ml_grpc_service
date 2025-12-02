@@ -6,12 +6,12 @@ import os
 import sys
 
 def main():
-    # Создаем директорию protos, если она не существует
+    # Создаем директорию protos
     os.makedirs("protos", exist_ok=True)
     
-    # Используем sys.executable вместо "python"
+    # Используем sys.executable 
     cmd = [
-        sys.executable,  # ← ИСПРАВЛЕНО: используем текущий интерпретатор Python
+        sys.executable,  
         "-m", "grpc_tools.protoc",
         "-Iprotos",
         "--python_out=protos",
